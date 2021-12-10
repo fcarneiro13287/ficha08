@@ -30,6 +30,7 @@ public class Funcionario {
         return 10;
     };
 
+    //setters e getters
     public String getNome() {
         return nome;
     }
@@ -84,6 +85,6 @@ public class Funcionario {
     }*/
     @Override
     public String toString(){
-        return "Nome:"+this.nome+"Salario:"+this.salario;
+        return "Nome: "+this.nome+" Salario: "+this.salario;
     }
 }
